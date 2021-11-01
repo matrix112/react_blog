@@ -13,7 +13,7 @@ function App() {
   //let [rcmd, rcmdChange] = useState(0);
   let [arrRcmd, arrRcmdChange] = useState([]);
   
-  let posts = 'Gangnam Famous Restaurant';
+  let posts = 'Famous Restaurant';
 
   function chgTitle(){
     var newTitle = [...title];  //spread operator ...immutable data
